@@ -34,7 +34,7 @@ input:focus
     padding-right: 15px;
 }
 header{
-    height: 170px;
+    height: 120px;
     background-color: rgb(197, 123, 216);
     position: fixed;
     width: 100%;
@@ -49,10 +49,13 @@ header{
     color: #481d8d;
     font-size: 18px;
     font-weight: 700;
-    line-height: 170px;
+    line-height: 120px;
 }
 .logo-img , .board-img{
     width: 100%;
+}
+.logo-img{
+    width: 80%;
 }
 main{
     background-color: #1f1f1f;
@@ -80,6 +83,9 @@ main{
     font-size: 50px;
     font-weight: 600;
     color: rgb(213,44,254);
+}
+.board-img{
+    margin-top: 100px;
 }
 .token{
     color: silver;
