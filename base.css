@@ -12,7 +12,11 @@ input:focus
 {
     outline: none;
 }
-
+body{
+    font-family: 'Goblin One', cursive;
+    background-color: #1f262f;
+    
+}
 .container
 {
     padding-left: 15px;
@@ -35,10 +39,17 @@ input:focus
 }
 header{
     height: 120px;
-    background-color: rgb(197, 123, 216);
+    background: #0F1C75;
     position: fixed;
     width: 100%;
 }
+.scroll-btn{
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100;
+}
+
 .main-menu{
     display: flex;
     justify-content: space-between;
@@ -46,32 +57,49 @@ header{
 .main-menu a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #481d8d;
-    font-size: 18px;
+    color: #909090;
+    font-size: 14px;
     font-weight: 700;
     line-height: 120px;
+    padding: 10px 5px;
 }
-.logo-img , .board-img{
-    width: 100%;
+.main-menu a:hover{
+    color: azure;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-radius: 4px;
+}
+.logo{
+    margin-top: 3px;
+}
+.board-img{
+    width: 70%;
+    border: 3px solid #666565;
+}
+.cotainer-board{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 .logo-img{
-    width: 80%;
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
 }
 main{
-    background-color: #1f1f1f;
+    background-color: #4b4b4b;
 }
 .smart-contract{
     height: 300px;
-    background-color: #1f1f1f;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 .title{
-    color: rgb(213,44,254);
+    color: #0F1C75;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     padding: 30px 0;
 }
@@ -79,18 +107,40 @@ main{
     height: 80px;
     width: 250px;
     background-color: transparent;
-    border: rgb(213,44,254) solid 2px;
+    border: #0F1C75 solid 2px;
     font-size: 50px;
     font-weight: 600;
-    color: rgb(213,44,254);
+    color: #0F1C75;
+}
+.copy-btn:hover{
+    background-color: #909090;
+    margin-top: -10px;
 }
 .board-img{
     margin-top: 100px;
 }
-.token{
+.token-line{
     color: silver;
-    font-size: 26px;
+    font-size: 20px;
     
+}
+.token-item{
+    border: #1f1f1f solid 3px;
+    padding: 25px 15px;
+    text-align: center;
+}
+.contact-item:hover{
+    border: solid 3px #909090;
+    border-radius:50% ;
+    background-color: #909090;
+    box-sizing: border-box;
+}
+.token:hover{
+
+    margin-top: -10px;
+}
+.token-item:hover{
+    background-color: #666565;
 }
 .darkside{
     height: 300px;
@@ -104,7 +154,9 @@ main{
     margin-top: 40px;
 }
 .hashtag-block{
-    background-color: #000;
+    border-top: 2px solid #1f1f1f;
+    border-bottom: 2px solid #1f1f1f;
+    padding: 30px 0;
 }
 .hashtags{
     height: 400px;
@@ -112,10 +164,27 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
 }
+.hashtag-scroller{
+    overflow:hidden;
+}
 .hash-items{
     font-size: 22px;
     color: silver;
     font-weight: 600;
+    height: 100%;
+    white-space:nowrap;
+    display:inline;
+    width:auto;
+}
+.properties{
+    display: flex;
+    align-items:stretch;
+}
+.prop-item{
+    padding: 25px 15px;
+    margin-top: 20px;
+    border: #1f1f1f solid 1px;
+    height: 1000px;
 }
 .prop-item img{
     width: 100%;
@@ -123,7 +192,7 @@ main{
 .prop-title{
     font-weight: 900;
     font-size: 36px;
-    color: rgb(213,44,254);
+    color: #0F1C75;
     text-align: center;
 }
 .prop-description{
@@ -155,17 +224,17 @@ main{
     height: 1000px;
 }
 footer{
-    height: 250px;
-    background-color: #000;
+    height: 150px;
+    background-color: #4b4b4b;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 footer p{
     text-align: center;
-    color: #ffff;
+    color: silver;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
 
 }
 /* XS */

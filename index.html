@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="base.css">
     <title>Crypto</title>
 </head>
@@ -12,10 +15,8 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-xl-2">
-                    <div class="logo">                       
-                        <img class="logo-img" src="https://static.wixstatic.com/media/f631cb_0334ed02907c47b1b33914acbf7e30ce~mv2.png/v1/fill/w_141,h_141,al_c,q_85,usm_0.66_1.00_0.01/Pluto_69_icon_space22.webp" alt="">
-                    </div>
+                <div class="col-xl-2 logo">                                         
+                        <img class="logo-img" src="images/logo.webp" alt="">                   
                 </div>
                 <div class="col-xl-10">
                     <ul class="main-menu">
@@ -32,7 +33,13 @@
         </div>
     </header>
     <main>
-        <img class="board-img" src="https://static.wixstatic.com/media/f631cb_548d63c854af475991120a1bc7609a9e~mv2.jpg/v1/fill/w_2135,h_1428,al_c,q_90,usm_0.66_1.00_0.01/Pluto_rocket_man_newage.webp" alt="">
+        <div class="scroll-btn">
+            <img src="images/arrow-up.png" alt="">
+        </div>
+        <div class="cotainer-board">
+            <img class="board-img" src="images/block.jpg" alt="">
+        </div>
+        
         <div class="container">
             <div class="row">
 
@@ -41,7 +48,7 @@
                         <div class="title">
                             smart contract
                         </div>
-                        <div class="token">0xf40153fb3f5db22f6843fc63835a3a870ed846d3</div>
+                        <div class="token-line">0xf40153fb3f5db22f6843fc63835a3a870ed846d3</div>
                         <button class="copy-btn">
                             Copy
                         </button>
@@ -50,15 +57,15 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
+            <div class="row tokens">
+                <div class="col-xl-6 token">
                     <div class="token-item">
-                        <img src="https://static.wixstatic.com/media/f631cb_fdb7dee02d504dd18a3ae9e76fdabda0~mv2.png/v1/fill/w_548,h_262,al_c,q_85,usm_0.66_1.00_0.01/coinmarket.webp" alt="">
+                        <img src="images/coinmarket.png" alt="">
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 token">
                     <div class="token-item">
-                        <img src="https://static.wixstatic.com/media/f631cb_c9a6ad41c0d74b97a9fdd22c7a03f48a~mv2.png/v1/fill/w_548,h_262,al_c,q_85,usm_0.66_1.00_0.01/geko.webp" alt="">
+                        <img src="images/geko.png" alt="">
                     </div>
                 </div>
             </div>
@@ -69,17 +76,16 @@
                     <div class="title">join the dark side</div>
                 </div>
                 <div class="col-xl-12 contacts">
-                    <img src="https://static.wixstatic.com/media/f631cb_00e1e59cbff1422f8a6e6a3464e90f3a~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/pancake.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_5954332175d7487591dd649ce12cc092~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/poop.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_bb9bf5e9eb334956b89676a36d355ab9~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/bsc.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_051ee03cf203418b930816d7b1e471e1~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/telegram.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_7b555fe6cdff4c99a1a02a7ad41edb0a~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/twitter.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_1fa2143eee824a70993500e99e2fc02a~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/reddi.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_4107b2108f1b453da593cf6a9694f245~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/discord.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_2d074bacfabe4e11829236522c4b6a2b~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/tiktok.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_618fa00209734091ac1d6a4e047ba294~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/insta.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_bfb33c1e7322430cb5e6c14356ae826d~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/lock.webp" alt="">
-                    <img src="https://static.wixstatic.com/media/f631cb_9725452f226f42b58c234bde63363a1d~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01/burn.webp" alt="">
+                    <img class="contact-item" src="images/itunes.png" alt="">
+                    <img class="contact-item" src="images/kik.png" alt="">
+                    <img class="contact-item" src="images/linkedin.png" alt="">
+                    <img class="contact-item" src="images/periscope.png" alt="">
+                    <img class="contact-item" src="images/reddit.png" alt="">
+                    <img class="contact-item" src="images/skype.png" alt="">
+                    <img class="contact-item" src="images/tiktok.png" alt="">
+                    <img class="contact-item" src="images/twitter.png" alt="">
+                    <img class="contact-item" src="images/whatsapp.png" alt="">
+                    <img class="contact-item" src="images/youtube.png" alt="">
                 </div>
             </div>
         </div>
@@ -88,36 +94,38 @@
                 <div class="row">
                     <div class="col-xl-12 hashtags">
                         <div class="title">HASHTAGS SCROLLER</div>
-                        <b class="hash-items">  
-                            #SafePluto #FairLaunch #NoDev #NoAllocation #TheBestCommunity #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards #FairLaunch
-                            #NoDev #NoAllocation #TheBestCommunity #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards #FairLaunch #NoDev #NoAllocation 
-                            #TheBestCommunity #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards #FairLaunch #NoDev #NoAllocation #TheBestCommunity 
-                            #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards 
-                    </b>
+                        <div class="hashtag-scroller">
+                            <b class="hash-items">  
+                                    #SafePluto #FairLaunch #NoDev #NoAllocation #TheBestCommunity #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards #FairLaunch
+                                    #NoDev #NoAllocation #TheBestCommunity #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards #FairLaunch #NoDev #NoAllocation 
+                                    #TheBestCommunity #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards #FairLaunch #NoDev #NoAllocation #TheBestCommunity 
+                                    #100Hours100Million$ #SafePlutoGivesBack #FromTheCommunity #CrazyRewards 
+                            </b>
+                        </div>
                     <div class="title">WHY JOIN SAFEPLUTO ?</div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row properties">
                 <div class="col-xl-4">
                     <div class="prop-item">                        
-                        <img src="https://static.wixstatic.com/media/f631cb_5162604c355f475a9842ef82ac3f54e2~mv2.png/v1/fill/w_503,h_503,al_c,q_85,usm_0.66_1.00_0.01/icon1%20copy.webp" alt="" class="prop-img">
+                        <img src="images/item-2.png" alt="" class="prop-img">
                         <div class="prop-title">COMMUNITY DRIVEN</div>
                         <div class="prop-description">SafePluto is a community-driven cryptocurrency that operates in the growing and fast-moving digital currency space, creating wealth for everyone on the way to PLUTO. That's what PL69 wanted before Doge betrayed him and left him for dead in a dark alley. But PL69 is coming for revenge, he can’t wait for everyone to know the truth and &nbsp;burry that doge dog 6 feet under…</div>
                     </div>
                 </div>
                 <div class="col-xl-4">
                     <div class="prop-item">
-                        <img src="https://static.wixstatic.com/media/f631cb_4a7dee926b5b477d80ba315c2126d0c3~mv2.png/v1/fill/w_503,h_503,al_c,q_85,usm_0.66_1.00_0.01/icon3-copy.webp" alt="" class="prop-img">
+                        <img src="images/item-1.png" alt="" class="prop-img">
                         <div class="prop-title">AUTOMATIC LIQUIDITY</div>
                         <div class="prop-description">Every transaction automatically generates liquidity and supports the end-to-end decentralized ecosystem. This is the way PL69 always wants it to be.</div>
                     </div>
                 </div>
                 <div class="col-xl-4">
                     <div class="prop-item">
-                        <img src="https://static.wixstatic.com/media/f631cb_597d1a7c38754f53b1c6f320e42e8ed0~mv2.png/v1/fill/w_503,h_503,al_c,q_85,usm_0.66_1.00_0.01/icon4-copy.webp" alt="" class="prop-img">
+                        <img src="images/item-3.png" alt="" class="prop-img">
                         <div class="prop-title">UNLIMITED REWARDS</div>
                         <div class="prop-description">PL69 wants Holders to earn rewards from every transaction made within the 69 network as they watch their SafePluto balance grow. PL69 aims for Pluto not mars or even the moon. PL69 is here to show you how it is done dawg. PL69 gives away real rewards, and be dropping on you Sneaks and RMs….you haven’t seen anything yet.&nbsp;</div>
                     </div>
@@ -128,7 +136,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="title">safepluto giveaways</div>
-                    <img class="giveaway-img" src="https://static.wixstatic.com/media/f631cb_e8913e60120447d99213a701f60dad25~mv2.jpg/v1/fill/w_2364,h_1175,al_c,q_90,usm_0.66_1.00_0.01/10000_giveaway.webp" alt="">
+                    <img class="giveaway-img" src="images/giveaway.jpg" alt="">
                     <p class="giveaway-info-title">$100,000 GIVEAWAY ANNOUNCEMENT!</p>
                     <p class="giveaway-info">For more information about our exclusive giveaways, please click below!</p>
                    
@@ -154,4 +162,5 @@
     
     <script src="app.js"></script> 
 </body>
+
 </html>
