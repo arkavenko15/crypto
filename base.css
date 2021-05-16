@@ -80,6 +80,7 @@ header{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    position: relative;
 }
 .logo-img{
     width: 70%;
@@ -114,7 +115,6 @@ main{
 }
 .copy-btn:hover{
     background-color: #909090;
-    margin-top: -10px;
 }
 .board-img{
     margin-top: 100px;
@@ -237,6 +237,49 @@ footer p{
     font-size: 16px;
 
 }
+.switcher{
+    position: absolute;
+    top: 150px;
+    right: 220px;
+    display: flex;
+    align-items: center;
+    background-color: #4b4b4b;
+}
+.switch-btn
+{
+    width: 48px;
+    height: 25px;
+    border-radius: 34px;
+    display: inline-block;
+    background-color: #d9e4e6;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.slider-round-left
+{
+    height: 17px;
+    width: 17px;
+    background-color: #0F1C75;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+
+}
+.slider-round-right
+{
+    height: 17px;
+    width: 17px;
+    background-color: #1290a4;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    right: 10%;
+}
+
 /* XS */
 @media(max-width:576px)
 {
